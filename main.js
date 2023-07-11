@@ -157,6 +157,7 @@ function isOver21(person) {
 
 const barHoppers = arrayOfPersons.filter(isOver21);
 console.log(barHoppers);
+spacer();
 
 /*
 
@@ -181,6 +182,9 @@ console.log(`find from scratch:`);
 console.log(findFromScratch(array1));
 // Space: O(1) - no extra resources are used
 // Time: O(n)
+
+spacer();
+
 const array2 = [5, 12, 8, 130, 44];
 const isLargeNumber = (element) => element > 13;
 // console.log(array1.findIndex(isLargeNumber));
